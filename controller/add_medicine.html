@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/auth.css">
+</head>
+<style>
+    body{
+        background-image: url("../images/image2.jpg");
+        background-color: #cccccc;
+       }
+    </style>  
+<body>
+    <form name="med" action="../controller/add_medicine.php" onsubmit="return validateForm()" method="POST"style="display: inline-block;">
+
+        <h1> Add Medicine </h1>
+        <fieldset>
+        <legend> Medicine List :</legend>
+        <label for="name"> Name : * 
+        <br>
+    </label>
+        <br>
+        <input type="submit" id="name" name="name" value="">
+        <br><br>
+        <label for="price"> Price : * </label>
+        <br>
+        <input type="submit" id="price" name="price" value="">
+        <br>
+        </fieldset>
+        <br>
+        <form action="..//view/medicine_inventory.php"><input type="submit" value=""></form>
+        <br><br> 
+        <form action="logout.html"><input type="submit" value="Logout" ></form>
+        </input>
+        <br><br> 
+    
+    </form> 
+    <script src="../view/js/add_medicine.js"></script>   
+</body>
+</html>

@@ -1,0 +1,18 @@
+<pages>
+<link>
+<title>Manager</title>
+<url>../view/manager_dashboard.php</url>
+</link>
+<link>
+<title>Cashier</title>
+<url>../view/cashier_dashboard.php</url>
+</link>
+<link>
+<title>Pharmacists</title>
+<url>../view/pharmacists_dashboard.php</url>
+</link>
+<link>
+<title>Medicine Inventory</title>
+<url>../view/medicine_inventory.html</url>
+</link>
+</pages>
